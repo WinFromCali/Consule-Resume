@@ -41,7 +41,7 @@ function displayPosition(companyName, jobTitle, jobDescription) {
     console.log(jobTitle, " at ", companyName, " where I ", jobDescription)
 };
 
-displaySkill("My Skills:sss", false)
+displaySkill("My Skills:", false)
 displaySkill("Play Trumpet", true)
 displaySkill("Road Cyclist", false)
 displaySkill("Tie a Tie", true)
@@ -49,7 +49,7 @@ displaySkill("Whistle", false)
 
 function displaySkill(skillName, cool) {
     if (cool == true) {
-        console.log("*Bam: " + skillName);
+        console.log("Bam:", skillName);
     } else if (cool == false) {
         console.log(skillName)
     }
